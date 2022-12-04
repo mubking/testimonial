@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+   min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #EDF2F8;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 2% 6%;
+}
+.overall{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.enclosure{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+.purple{
+    width: 300%;
+    height: 50vh;
+    background-color: #733FC8;
+    padding: 0px 30px;
+    color: white;
+    border-radius: 10px;
+}
+.gray{
+    width: 200%;
+    height: 50vh;
+    background-color:#49556B;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.white{
+    width: 60%;
+    height: 50vh;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;    
+
+}
+.darkgray{
+    width: 100%;
+    height: 50vh;
+    background-color:#18202D;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+.whiite{
+    width: 30%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 25px;
+    
+      
+}
+.one-two-three{
+    display: flex;
+    flex-direction: row;
+    /* padding: 0px 20px; */
+}
+.three img{
+    margin-left: 100px;
+
+}
+.one img{
+border-radius: 50px;
+margin-top: 10px;
+}
+.two{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    opacity: 50%;
+}
+.four h3{
+    position: relative;
+    bottom: 30px;
+    font-size: 3vmin;
+    color: white;
+}
+.four p{
+            font-size: 2.5vmin;
+            opacity: 70%;
+        }
+ .five-six{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+ }       
+ .six{
+    margin-left: 20px;
+    opacity: 50%;
+ }
+.five img{
+    border-radius: 50%;
+}
+.seven h3{
+    font-size: 4vmin;
+}
+.seven p{
+    margin-top: 20px;
+    font-size: 2.5vmin;
+    opacity: 70%;
+}
+.eight-nine{
+    display: flex;
+    flex-direction: row;
+}
+.eight img{
+    border-radius: 50%;
+}
+.nine{
+    margin-left: 20px;
+    opacity: 50%;
+}
+.ten h3{
+    margin-top: 10px;
+    color: #545C69;
+    font-size: 4vmin;
+}
+.ten p{
+    margin-top: 30px;
+    opacity: 70%;
+}
+.eleven-twelve{
+    display: flex;
+    flex-direction: row;
+ 
+}
+.eleven img{
+    border-radius: 50%;
+    border: 3px purple;
+}
+.twelve{
+    margin-left: 20px;
+    opacity: 50%;
+}
+.thirteen h3{
+    margin-top: 15px;
+    font-size: 3vmin;
+}
+.thirteen p{
+    margin-top: 20px;
+    opacity: 70%;
+}
+.fourteen-fifteen{
+    display: flex;
+    flex-direction: row;
+}
+.fourteen img{
+    border-radius: 50%;
+}
+.fifteen{
+    margin-left: 20px;
+    opacity: 50%;
+}
+
+.sixteen h3{
+  margin-top: 20px;
+  font-size: 4vmin;
+  color: #4D5363;
+}
+.sixteen p{
+    margin-top: 30px;
+opacity: 70%;
+}
+.attribution{
+    background-color: purple;
+    text-align: center;
+    color: yellowgreen;
+}
+.attribution a{
+    color: red;
+}
+
+@media screen and (max-width: 950px) {
+    section{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #EDF2F8;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 2% 6%;
+    }
+    .enclosure{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+    .purple{
+        width: 100%;
+        height: 50vh;
+        background-color:  #733FC8;
+        padding: 0px 30px;
+    }
+    .two{
+        font-size: 2.5vmin;
+    }          
+    .four h3{
+    font-size: 3vmin;
+    }
+    .four p{
+        font-size: 2.5vmin;
+    }
+    .gray{
+        width: 100%;
+        height: 40vh;
+        background-color:#49556B;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        
+    }
+    .white{
+        width: 100%;
+        height: 50vh;
+        background-color: white;
+        padding: 25px;
+        
+    
+    }
+    .whiite{
+        width: 100%;
+        height: 70vh;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        padding: 25px;
+        
+          
+    }
+       
+}
